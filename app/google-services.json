@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "650522834522",
+    "firebase_url": "https://buddychat-9332c.firebaseio.com",
+    "project_id": "buddychat-9332c",
+    "storage_bucket": "buddychat-9332c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650522834522:android:1bbf3d56c6b971ec",
+        "android_client_info": {
+          "package_name": "com.naimsplanet.buddychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650522834522-duslkk9cu1do7ij0ndhndtdqelvnul8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naimsplanet.buddychat",
+            "certificate_hash": "6c45cc9f061227fdecc8e2ba0d3605a1467c551d"
+          }
+        },
+        {
+          "client_id": "650522834522-22e5ijebd81e0psd4oeuql7obq2m3fng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm_p2VcPTiW5nxz-wa6AtDAQgv-LYje7Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650522834522-22e5ijebd81e0psd4oeuql7obq2m3fng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

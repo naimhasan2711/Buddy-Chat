@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BuddyChat</string>
+    <string name="this_is_start_page">Welcome to the BuddyChat</string>
+    <string name="this_is_main_page">This is Main Page</string>
+    <string name="need_an_account">Need a new account?</string>
+    <string name="display_name">Display Name</string>
+    <string name="password">Password...</string>
+    <string name="email">Email...</string>
+    <string name="create_account">Create Account</string>
+    <string name="logout">Logout</string>
+    <string name="all_users">All Users</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="create_a_new_account">Create A New Account</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already Have Account</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="welcome_to_reguset_page">Welcome to Reguset Page</string>
+    <string name="welcome_to_chat_page">Welcome to Chat Page</string>
+    <string name="welcome_to_friends_page">Welcome to Friends Page</string>
+    <string name="hi_there_i_am_using_buddychat">Hi there, I am using BuddyChat</string>
+    <string name="change_image">Change Image</string>
+    <string name="change_status">Change Status</string>
+    <string name="display_nam">Display Name</string>
+    <string name="your_status">Your Status...</string>
+    <string name="change_statuss">Change Status</string>
+    <string name="current_user_status">Current user Status</string>
+    <string name="totol_friends">Totol Friends:</string>
+    <string name="send_friend_request">send friend request</string>
+    <string name="display_image111">display image</string>
+    <string name="decline_friend_request">decline friend request</string>
+    <string name="loginn">Login</string>
+
+
+</resources>
