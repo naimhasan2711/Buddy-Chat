@@ -22,15 +22,13 @@ import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class UsersActivity extends AppCompatActivity
-{
+public class UsersActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;
     private RecyclerView mUserLists;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_users);
 
@@ -50,14 +48,12 @@ public class UsersActivity extends AppCompatActivity
     }
 
     @Override
-    protected void onStart()
-    {
+    protected void onStart() {
         super.onStart();
         startListening();
     }
 
-    private void startListening()
-    {
+    private void startListening() {
         Query query = FirebaseDatabase.getInstance().getReference().child("Users");
 
         FirebaseRecyclerOptions<Users> options =
@@ -82,16 +78,14 @@ public class UsersActivity extends AppCompatActivity
                 // Bind the Chat object to the ChatHolder
                 holder.setName(model.name);
                 holder.setStatus(model.status);
-                holder.setThumb(model.getThumb_image(),getApplicationContext());
+                holder.setThumb(model.getThumb_image(), getApplicationContext());
 
                 final String user_id = getRef(position).getKey();
-                holder.mView.setOnClickListener(new View.OnClickListener()
-                {
+                holder.mView.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick(View v)
-                    {
-                        Intent profileIntent = new Intent(UsersActivity.this , ProfileActivity.class);
-                        profileIntent.putExtra("user_id",user_id);
+                    public void onClick(View v) {
+                        Intent profileIntent = new Intent(UsersActivity.this, ProfileActivity.class);
+                        profileIntent.putExtra("user_id", user_id);
                         startActivity(profileIntent);
                     }
                 });
@@ -102,25 +96,26 @@ public class UsersActivity extends AppCompatActivity
         adapter.startListening();
     }
 
-    public static class UserViewHolder extends RecyclerView.ViewHolder
-    {
+    public static class UserViewHolder extends RecyclerView.ViewHolder {
 
         View mView;
+
         public UserViewHolder(View itemView) {
             super(itemView);
             mView = itemView;
         }
 
-        public void setName(String name){
+        public void setName(String name) {
             TextView textView = mView.findViewById(R.id.user_single_name);
             textView.setText(name);
         }
-        public void setStatus(String status){
+
+        public void setStatus(String status) {
             TextView statusText = mView.findViewById(R.id.user_default_status);
             statusText.setText(status);
         }
 
-        public void setThumb(String thumb_image , Context ctx){
+        public void setThumb(String thumb_image, Context ctx) {
             CircleImageView circleImageView = mView.findViewById(R.id.user_profile_image);
             Picasso.get()
                     .load(thumb_image)

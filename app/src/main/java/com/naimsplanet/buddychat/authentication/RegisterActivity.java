@@ -133,7 +133,7 @@ public class RegisterActivity extends AppCompatActivity
                         else
                         {
                             mRegisterProgress.hide();
-                            Toast.makeText(RegisterActivity.this, "Cannot Register. Please try again...", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this,task.getException().toString(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

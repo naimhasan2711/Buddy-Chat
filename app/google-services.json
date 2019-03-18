@@ -8,6 +8,50 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:650522834522:android:fa20ed3de00db22e",
+        "android_client_info": {
+          "package_name": "buddychat.naimsplanet.com.buddychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650522834522-s7mv95v1vb9vmtekpuas8o0b8c109o1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "buddychat.naimsplanet.com.buddychat",
+            "certificate_hash": "6c45cc9f061227fdecc8e2ba0d3605a1467c551d"
+          }
+        },
+        {
+          "client_id": "650522834522-22e5ijebd81e0psd4oeuql7obq2m3fng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm_p2VcPTiW5nxz-wa6AtDAQgv-LYje7Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650522834522-22e5ijebd81e0psd4oeuql7obq2m3fng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:650522834522:android:1bbf3d56c6b971ec",
         "android_client_info": {
           "package_name": "com.naimsplanet.buddychat"

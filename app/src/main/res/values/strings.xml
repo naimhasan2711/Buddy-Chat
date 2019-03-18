@@ -3,9 +3,9 @@
     <string name="this_is_start_page">Welcome to the BuddyChat</string>
     <string name="this_is_main_page">This is Main Page</string>
     <string name="need_an_account">Need a new account?</string>
-    <string name="display_name">Display Name</string>
-    <string name="password">Password...</string>
-    <string name="email">Email...</string>
+    <string name="display_name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
     <string name="create_account">Create Account</string>
     <string name="logout">Logout</string>
     <string name="all_users">All Users</string>
@@ -32,6 +32,8 @@
     <string name="display_image111">display image</string>
     <string name="decline_friend_request">decline friend request</string>
     <string name="loginn">Login</string>
+    <string name="channel_name">chanel 1</string>
+    <string name="channel_description">none</string>
 
 
 </resources>

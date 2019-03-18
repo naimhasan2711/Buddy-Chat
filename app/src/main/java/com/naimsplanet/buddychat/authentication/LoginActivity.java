@@ -108,7 +108,7 @@ public class LoginActivity extends AppCompatActivity
                         else
                         {
                             mLoginProgress.hide();
-                            Toast.makeText(LoginActivity.this, "Cannot Login in, please try again...", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "Failed message : " + task.getException().toString(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

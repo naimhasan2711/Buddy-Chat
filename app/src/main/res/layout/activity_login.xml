@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".authentication.LoginActivity"
+    android:background="@color/colorPrimary"
     tools:layout_editor_absoluteY="25dp">
 
     <include
@@ -21,7 +22,6 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="45dp"
-        android:background="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
@@ -30,6 +30,9 @@
             android:id="@+id/login_emailText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/edittext_border"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
             android:hint="@string/email"
             android:inputType="textEmailAddress" />
     </android.support.design.widget.TextInputLayout>
@@ -41,7 +44,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:background="#ffffff"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_email">
@@ -50,36 +53,41 @@
             android:id="@+id/login_passwordText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/edittext_border"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
             android:hint="@string/password"
             android:inputType="textPassword" />
     </android.support.design.widget.TextInputLayout>
 
     <Button
         android:id="@+id/login_button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:background="@drawable/button_border"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/login"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_password" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="45dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
-        android:fontFamily="monospace"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/aguafina_script"
         android:text="@string/loginn"
         android:textColor="@android:color/black"
-        android:textSize="20sp"
+        android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/login_email"
         app:layout_constraintStart_toStartOf="parent"
